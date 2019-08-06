@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "name": "Printed Leggings",
+      "id": "0016",
+      "price": "$45.00",
+      "size": ["Small", "Medium", "Large"],
+      "tag": "New Arrival",
+      "gg": "images/content/bra1.jpg"
+    }
+  ]
+}

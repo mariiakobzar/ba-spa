@@ -1,0 +1,20 @@
+\{{#each products}}
+<div class="item">
+  <div class="item__image">
+    <img src="\images/content/bra1.jpg" alt="">
+    \{{{img gg}}}
+    \{{#if tag}}
+    <div class="item--new">
+      <p>\{{tag}}</p>
+    </div>
+    \{{/if}}
+    <a class="item--hover">
+      <p>Quick View</p>
+    </a>
+  </div>
+  <div class="item-info">
+    <h4 class="item-info__name">\{{name}}</h4>
+    <p class="item-info__price">\{{price}}</p>
+  </div>
+</div>
+\{{/each}}
